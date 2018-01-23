@@ -1,36 +1,13 @@
-<div class='container'>
-  <h3>Gold Count: {{gold_count}}</h3>
-    <div class='row'>
-      <div class="col-3 col-sm-3">
-        <h3>Farm</h3>
-        <p>Earns 2-5 Gold</p>
-        <button (click)="clickbutton('farm')" name='farm'>Farm!</button>
-      </div>
-      <div class="col-3 col-sm-3">
-        <h3>Cave</h3>
-        <p>Earns 5-10 Gold</p>
-        <button (click)="clickbutton('cave')" name='cave'>Cave!</button>
-      </div>
-      <div class="col-3 col-sm-3">
-        <h3>House</h3>
-        <p>Earns 7-15 Gold</p>
-        <button (click)="clickbutton('house')" name='house'>House!</button>
-      </div>
-      <div class="col-3 col-sm-3">
-        <h3>Casino</h3>
-        <p>Earn up to or Lose up to 100 Gold</p>
-        <button (click)="clickbutton('casino')" name='casino'>Casino!</button>
-      </div>
-    </div>
-    <h1>Adventure Log</h1>
-    <div class = 'row'>
-      <ul>
-        <li *ngFor = "let a of log">
-          {{a}}
-        </li>
-       
-      </ul>
-    </div>
-  </div>
-  
-  
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to the Dojo Weather App!
+  </h1>
+  <button [routerLink]="['seattle']">Seattle</button>
+  <button [routerLink]="['sanjose']">San Jose</button>
+  <button [routerLink]="['burbank']">Burbank</button>
+  <button [routerLink]="['dallas']">Dallas</button>
+  <button [routerLink]="['washington']">Washington DC</button>
+  <button [routerLink]="['chicago']">Chicago</button>
+
+<router-outlet></router-outlet>

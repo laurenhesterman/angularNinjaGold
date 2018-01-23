@@ -1,0 +1,9 @@
+<h1>
+  Weather Info for {{ obj['name']}}
+ </h1>
+  <p>
+  Temperature: {{ obj['main'].temp }}k<br>
+  Humidity: {{ obj['main'].humidity }}%
+  
+ </p>
+ <img [src]="fullImagePath" >

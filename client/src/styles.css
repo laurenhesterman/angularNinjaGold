@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+/* * {
+    border: 1px dashed red;
+} */
+img {
+    width: 500px;
+}
+h1, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: linear-gradient( white,silver,navy);
+}
+button {
+    border: .5px solid navy;
+    border-radius: .3em;
+}

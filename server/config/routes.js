@@ -10,7 +10,9 @@ module.exports = function(app) {
     app.post('/gold', function(req, res) {
         golds.add(req, res)
     })
-
+    app.all("*", (req,res,next) => {
+        res.sendFile(path.resolve("./public/dist/index.html"))
+      });
 
 
 

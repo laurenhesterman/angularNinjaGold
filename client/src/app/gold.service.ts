@@ -1,30 +1,20 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
+// import { GoldService } from './gold.service';
 @Injectable()
 export class GoldService {
 
   constructor(private _http: HttpClient){
-    this.getGold();
-    // this.postGold();
-  }
-
-
-
-  getGold(){
-    // our http response is an Observable, store it in a variable
-    let tempObservable = this._http.get('/gold');
-    // subscribe to the Observable and provide the code we would like to do with our data from the response
-    tempObservable.subscribe(data => console.log("Got our golds!", data));
-  }
-  postGold(total,log){
-    // our http response is an Observable, store it in a variable
-    let tempObservable = this._http.post('/gold',total,log);
     
-    // subscribe to the Observable and provide the code we would like to do with our data from the response
-    tempObservable.subscribe(data => console.log("post this one task", data));
-    console.log(tempObservable)
-  }
-
-
-}
+      }
+      // getGold(){
+      //   return this._http.get('/gold')
+      // }
+    
+      getWeather(cityname){
+       console.log(cityname)
+        return this._http.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&APPID=99a71e9bf02ba50fffe5a97ea8ed68a6`);
+      }
+    
+    
+    }
