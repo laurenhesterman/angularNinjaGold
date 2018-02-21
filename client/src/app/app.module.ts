@@ -11,6 +11,9 @@ import { BurbankComponent } from './burbank/burbank.component';
 import { DallasComponent } from './dallas/dallas.component';
 import { WashingtonComponent } from './washington/washington.component';
 import { ChicagoComponent } from './chicago/chicago.component';
+import { WorkComponent } from './work/work.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -21,7 +24,10 @@ import { ChicagoComponent } from './chicago/chicago.component';
     BurbankComponent,
     DallasComponent,
     WashingtonComponent,
-    ChicagoComponent
+    ChicagoComponent,
+    WorkComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

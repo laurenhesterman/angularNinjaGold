@@ -2,16 +2,13 @@
 /* * {
     border: 1px dashed red;
 } */
-img {
-    width: 500px;
-}
-h1, p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 body{
-    background: linear-gradient( white,silver,navy);
+    
+    text-align: center;
+    align-content: center;
+    background-color: black;
 }
-button {
-    border: .5px solid navy;
-    border-radius: .3em;
+router-outlet {
+    background: linear-gradient(black grey);
+    color: grey;
 }

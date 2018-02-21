@@ -1,13 +1,27 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to the Dojo Weather App!
-  </h1>
-  <button [routerLink]="['seattle']">Seattle</button>
-  <button [routerLink]="['sanjose']">San Jose</button>
-  <button [routerLink]="['burbank']">Burbank</button>
-  <button [routerLink]="['dallas']">Dallas</button>
-  <button [routerLink]="['washington']">Washington DC</button>
-  <button [routerLink]="['chicago']">Chicago</button>
+<div style="text-align:center" id="whole">
+  <div id="toppart" >
+      <div id="cover"></div> 
+      <div id="insides">
+          <h1>
+          Lauren Hesterman
 
-<router-outlet></router-outlet>
+          </h1>
+          <h3>Full Stack Software Engineer</h3>
+          
+    </div>
+    
+    
+  </div>
+  <div id="buttondivs">
+      <button [routerLink]="['about']"><h3>About</h3></button>
+      <button [routerLink]="['work']"><h3>Work</h3></button>
+      <button [routerLink]="['contact']" ng-hover="myStyle={'color':'blue'}" ><h3>Contact</h3></button>
+      </div>
+
+
+
+<div id="outlet">
+<router-outlet ></router-outlet>
+</div>
+</div>

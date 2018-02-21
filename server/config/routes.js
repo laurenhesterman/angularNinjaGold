@@ -1,4 +1,4 @@
-
+var path = require('path')
 var mongoose = require('mongoose');
 var Gold = mongoose.model('Gold');
 var golds = require('../controllers/golds.js');
@@ -11,7 +11,7 @@ module.exports = function(app) {
         golds.add(req, res)
     })
     app.all("*", (req,res,next) => {
-        res.sendFile(path.resolve("./public/dist/index.html"))
+        res.sendFile(path.resolve("./client/dist/index.html"))
       });
 
 
