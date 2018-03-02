@@ -1,5 +1,46 @@
-h3, h5, a {
+h3, h5, h1, a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
     color: grey;
+}
+img {
+    width:auto;
+    height:180px;
+    opacity: 0.6;
+    box-shadow: 0 0 8px 8px black inset;
+}
+
+#intro {
+    display: inline-block;
+    /* width: 60em; */
+    margin-top: 20px;
+    width: 60%;
+}
+#pic {
+    display: inline-block;
+    /* width: 20%; */
+    vertical-align: top;
+    margin-top: 30px;
+    margin-right: 4%;
+    /* box-shadow: 0 0 4px 4px rgb(110, 47, 47) inset; */
+
+}
+#tech img{
+    display: inline-block;
+    width: 120px;
+    height: auto;
+    background-color: grey;
+    box-shadow: 0 0 3px 3px rgb(56, 21, 21) inset;
+    padding: 3px;
+}
+#tech {
+    margin: 40px;
+    
+    
+}
+h3 {
+    margin-bottom: 10px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

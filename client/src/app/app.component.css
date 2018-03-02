@@ -40,16 +40,31 @@ position: relative;
     padding-top: 16%;
     padding-bottom: 16%;
 }
-#buttondiv {
+#buttondivs {
     display: block;
-    /* padding-bottom: 15%; */
-    z-index: 1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* z-index: 1; */
+
 }
-h1, h3{
+#buttondivs a {
+    size: 15%;
+    width: 20px;
+   /* margin-left: 2em; */
+
+}
+.link {
+    display: inline-block;
+    margin-right: 4em;
+    margin-left: 4em;
+    margin-top: 5px;
+}
+h1, h3, h4, h5{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
     color: grey;
      text-shadow: 2px 2px #003200b6; 
+     display: inline-block;
 }
 
 p {
@@ -61,7 +76,9 @@ p {
     /* background-image: linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(22, 0, 0, .8) 100%); */
     /* background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%); */
 }
-
+a:hover {
+    color: #003200b6
+}
 
 button {
     border: none;
@@ -74,13 +91,14 @@ button {
     background-color: transparent;
 
 }
-button:hover {
-    color: #003200b6;
-}
+
 #whole {
     width: 100%;
 }
 * {
     text-align: center;
     
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

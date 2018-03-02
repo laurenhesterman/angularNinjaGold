@@ -9,6 +9,8 @@ body{
     background-color: black;
 }
 router-outlet {
-    background: linear-gradient(black grey);
+    background: linear-gradient(silver grey);
     color: grey;
+    text-align: center;
+    align-content: center;
 }

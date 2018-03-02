@@ -6,17 +6,18 @@
           <h1>
           Lauren Hesterman
 
-          </h1>
+          </h1><br>
           <h3>Full Stack Software Engineer</h3>
           
     </div>
     
     
   </div>
-  <div id="buttondivs">
-      <button [routerLink]="['about']"><h3>About</h3></button>
-      <button [routerLink]="['work']"><h3>Work</h3></button>
-      <button [routerLink]="['contact']" ng-hover="myStyle={'color':'blue'}" ><h3>Contact</h3></button>
+  <div id="buttondivs" set-class-when-at-top="fix-to-top">
+    
+      <div class="link"><a [routerLink]="['about']"><img src="../assets/pencil.png" ><h5>About</h5></a></div>
+      <div class="link"><a [routerLink]="['work']"><img src="../assets/gitgit.png" ><h5>Projects</h5></a></div>
+      <div class="link"><a [routerLink]="['contact']"  ><img src="../assets/phone.png" ><h5>Contact</h5></a></div>
       </div>
 
 
