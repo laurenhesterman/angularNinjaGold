@@ -16,7 +16,7 @@ h3, h5, a {
 img {
     width: 200px;
     height:130px;
-    opacity: 0.4;
+    opacity: 0.8;
     box-shadow: 0 0 8px 8px black inset;
 }
 a:hover {
