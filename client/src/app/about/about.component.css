@@ -1,7 +1,7 @@
 h3, h5, h1, a, p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0px;
-    color: black;
+    color: rgba(0, 0, 0, 0.83);
 }
 img {
     width:auto;
@@ -29,7 +29,7 @@ img {
     display: inline-block;
     width: 100px;
     height: auto;
-    background-color: silver;
+    background-color: rgba(209, 202, 216, 0.914);
     /* box-shadow: 0 0 3px 3px rgba(56, 21, 21, .8) inset; */
     padding: 6px;
 }
