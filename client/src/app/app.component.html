@@ -1,28 +1,47 @@
 <!--The content below is only a placeholder and can be replaced.-->
+
 <div style="text-align:center" id="whole">
-  <div id="toppart" >
-      <div id="cover"></div> 
-      <div id="insides">
-          <h1>
-          Lauren Hesterman
+    <div id="header">
 
-          </h1><br>
-          <h3>Full Stack Software Engineer</h3>
-          
+        <h6>Lauren Hesterman, 2018</h6>
+
     </div>
-    
-    
-  </div>
-  <div id="buttondivs" set-class-when-at-top="fix-to-top">
-    
-      <div class="link"><a [routerLink]="['about']"><img src="../assets/pencil.png" ><h5>About</h5></a></div>
-      <div class="link"><a [routerLink]="['work']"><img src="../assets/gitgit.png" ><h5>Projects</h5></a></div>
-      <div class="link"><a [routerLink]="['contact']"  ><img src="../assets/phone.png" ><h5>Contact</h5></a></div>
-      </div>
+        <div id="buttondivs" >
+
+                <div class="link">
+                    <a [routerLink]="['about']">
+                        <img src="../assets/pencil.png"><h5>About</h5>
+                    </a>
+                </div>
+                <div class="link">
+                    <a [routerLink]="['work']"><img src="../assets/gitgit.png"><h5>Projects</h5>
+                    </a>
+                </div>
+                <div class="link">
+                    <a [routerLink]="['contact']">
+                        <img src="../assets/phone.png"><h5>Contact</h5>
+                    </a>
+                </div>
+        </div>
+    <div id="toppart">
+        <div id="cover"></div>
+        <div id="insides">
+            <h1>
+                Lauren Hesterman
+
+            </h1>
+            <br>
+            <h3>Full Stack Software Engineer</h3>
+
+        </div>
 
 
+    </div>
+   
 
-<div id="outlet">
-<router-outlet ></router-outlet>
-</div>
+
+    <div id="outlet">
+        <router-outlet></router-outlet>
+    </div>
+ 
 </div>

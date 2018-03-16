@@ -7,7 +7,10 @@ import { GoldService } from './gold.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  
+  
 }
+
    
 
     

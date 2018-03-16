@@ -6,11 +6,11 @@ body{
     
     text-align: center;
     align-content: center;
-    background-color: black;
+    background-color: silver;
 }
 router-outlet {
     background: linear-gradient(silver grey);
-    color: grey;
+    /* color: grey; */
     text-align: center;
     align-content: center;
 }

@@ -1,7 +1,9 @@
 h3, h5, a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0px;
-    color: grey;
+    color: black;
+    font-stretch: ultra-expanded;
+    font-weight: 500;
     text-decoration:  none;
 }
 
@@ -29,5 +31,5 @@ li {
 
 }
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
