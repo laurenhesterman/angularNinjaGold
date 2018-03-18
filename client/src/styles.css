@@ -6,7 +6,7 @@ body{
     
     text-align: center;
     align-content: center;
-    background-color: rgb(243, 238, 248)
+    background-color: rgba(213, 211, 219, 0.845);
 }
 router-outlet {
     background: linear-gradient(silver grey);
